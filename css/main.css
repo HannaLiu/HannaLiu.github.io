@@ -46,7 +46,7 @@ article:nth-child(3){background:#fff url(../images/xiexian_bg.png); }
 article:nth-child(4){background:#fff url(../images/fotbg.png);}
 
 .home-article{text-align: center;}
-.home-article .banner{height:500px; padding: 300px 0 400px;}
+.home-article .banner{min-height:500px; padding: 250px 0 300px;}
 .home-article .banner h2{color: #1b4764; font-size:50px; margin:0 auto; text-align:center;	-webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.3));	font:bold/1.231 georgia,sans-serif;}
 .home-article .banner h2 span{color:#e95344;}
 .home-article .banner p{text-align:center; font-size:18px; margin-top: 70px; color:#474747;-webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.3));	font:bold/1.231 georgia,sans-serif;}
@@ -181,4 +181,6 @@ footer audio{ width:100%; position:fixed;bottom:0; left:0; right:0;}
 
 @media only screen and (max-width:992px ) {
 	.home-article .pick-banner .smallBnner li:hover .UpArea{height:520px; top:-520px;}
+	.nav-menu li a{padding: 0 15px;}
 }
+
