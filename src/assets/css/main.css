@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family: "Arial","Microsoft YaHei",Tahoma,Helvetica,sans-serif,"黑体","宋体";width: 100%;height: 100%;padding-top: 90px;}
+a:hover,a:active,a:link{text-decoration: none;color: inherit;}
+ul{list-style: none;}
+/*header*/
+header{width:100%; height:90px; position: fixed;top:0; z-index:999; border-bottom: 1px solid #e5e5e5;background: #FFFFFF; }
+.header{position: relative;height: 90px;}
+.logo{float: left;}
+.logo img{height: 30px;}
+.head-pic{}
+nav ul{float:right;font-size: 0;}
+.nav-menu{height: 90px;border-right: 1px solid #e5e5e5;}
+.nav-menu li{display: inline-block;line-height: 90px;margin: 0 10px;}
+.nav-menu li a{color:#fff; color: #444444;text-align: center; font-weight: bold; font-size: 16px;  padding: 15px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;}
+.nav-menu li a:hover{background-color:#41b883;color:#fff;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;}
+
+.nav-person{float: right;}
+.nav-login{padding-left: 15px;line-height: 90px;}
+.nav-login .btn-default a{color: #555;}
+.nav-login .btn-success a{color: #FFFFFF;}
